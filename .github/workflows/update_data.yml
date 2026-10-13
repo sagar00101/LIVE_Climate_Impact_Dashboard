@@ -1,0 +1,35 @@
+name: Hourly Climate Ingestion
+
+on:
+  schedule:
+    # Har ghante cloud par chalega
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Libraries
+        run: |
+          pip install pandas requests
+
+      - name: Fetch Live Data
+        run: |
+          python fetch_data.py
+
+      - name: Commit and Save Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add maharashtra_climate_live_data.csv
+          git commit -m "Auto-update live data [skip ci]" || exit 0
+          git push
