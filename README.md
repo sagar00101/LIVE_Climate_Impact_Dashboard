@@ -6,7 +6,7 @@ An automated end-to-end data pipeline and real-time analytics dashboard monitori
 ---
 
 ## 🔗 Live Demo
-👉 **[View the Live Interactive Dashboard Here](https://aapka-streamlit-app-link.streamlit.app)** *(Replace this with your Streamlit App URL)*
+👉 **[View the Live Interactive Dashboard Here](https://liveclimateimpactdashboard-w7amztv6dgujbh9jezywbj.streamlit.app/)** 
 
 ---
 
