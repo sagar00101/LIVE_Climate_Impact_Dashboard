@@ -684,3 +684,8 @@ timestamp,state,city,zone,temperature_celsius,humidity_percent,wind_speed_kmh,pm
 2026-11-12 00:20:48,Maharashtra,Nagpur,Vidarbha,21.1,61,7.5,39.8,48.0,54
 2026-11-12 00:20:48,Maharashtra,Nashik,North Maharashtra,19.3,54,0.6,22.8,25.1,44
 2026-11-12 00:20:48,Maharashtra,Chhatrapati Sambhajinagar,Marathwada,21.4,45,6.7,32.0,35.4,50
+2026-11-12 08:05:54,Maharashtra,Mumbai,Coastal,34.7,22,4.1,73.3,76.6,309
+2026-11-12 08:05:54,Maharashtra,Pune,Western Plateau,29.8,28,9.9,26.5,32.5,83
+2026-11-12 08:05:54,Maharashtra,Nagpur,Vidarbha,29.8,30,6.2,46.9,58.6,92
+2026-11-12 08:05:54,Maharashtra,Nashik,North Maharashtra,30.2,25,8.3,17.5,20.9,89
+2026-11-12 08:05:54,Maharashtra,Chhatrapati Sambhajinagar,Marathwada,30.7,25,5.9,23.6,31.0,73
